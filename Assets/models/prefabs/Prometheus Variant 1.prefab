@@ -1,0 +1,185 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3298856617596673272
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 269779211145977245, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 269779211145977245, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 269779211145977245, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 269779211145977245, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 269779211145977245, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 269779211145977245, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 269779211145977245, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 269779211145977245, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 269779211145977245, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 269779211145977245, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 645600723426625319, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      propertyPath: m_Name
+      value: Prometheus Variant 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6110585524436395317, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+    - {fileID: 6579256866292403097, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+    m_RemovedGameObjects:
+    - {fileID: 1658040413793594439, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+    - {fileID: 6538667626804521394, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+    - {fileID: 1739893574296361636, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+    - {fileID: 8848503228515627025, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+    - {fileID: 9102602090599937022, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+    - {fileID: 3897186745842663124, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+    - {fileID: 4457928317343444071, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+    - {fileID: 6312302791863917776, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 645600723426625319, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3506942875662625697}
+    - targetCorrespondingSourceObject: {fileID: 645600723426625319, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8230626030685397148}
+    - targetCorrespondingSourceObject: {fileID: 645600723426625319, guid: 03a45b3682719574394b5d9adf53170e,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2489368714512924273}
+  m_SourcePrefab: {fileID: 100100000, guid: 03a45b3682719574394b5d9adf53170e, type: 3}
+--- !u!1 &2680282735085329375 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 645600723426625319, guid: 03a45b3682719574394b5d9adf53170e,
+    type: 3}
+  m_PrefabInstance: {fileID: 3298856617596673272}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &3506942875662625697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2680282735085329375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd2919f1dc442a441a54dd966dd2abd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CarFeel
+  pcc: {fileID: 0}
+  steerLowSpeed: 32
+  steerHighSpeed: 8
+  steerCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.35
+      value: 0.65
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  centerOfMass: {x: 0, y: -0.5, z: 0.15}
+  downforceCoef: 1.2
+  angularDrag: 1.5
+  driftAssist: 3
+  assistMinSpeed: 12
+--- !u!114 &8230626030685397148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2680282735085329375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f9334176cb1914a87b9b1682e718ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Gearbox
+  pcc: {fileID: 0}
+  gearCount: 6
+  idleRPM: 1000
+  redlineRPM: 7600
+  shiftDownRPM: 3800
+--- !u!114 &2489368714512924273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2680282735085329375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4915127361024e343b603eb97d706b05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CollisionFeedback
+  minImpactSpeed: 3
+  maxImpactSpeed: 25
+  cooldown: 0.15
+  sfx: {fileID: 0}
+  clips: []

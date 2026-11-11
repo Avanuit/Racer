@@ -23,7 +23,8 @@ public class RacingHUD : MonoBehaviour
     [Header("Velocímetro")]
     public TMP_Text speedText, gearText, rpmText;
     public RectTransform speedNeedle, rpmNeedle;
-    public Image rpmBar;                              // Image tipo Filled
+    public Image rpmBar;                              // Image tipo Filled (radial)
+    public float rpmBarMaxFill = 0.75f;               // 0.75 = arco de 270°
     public float maxDisplaySpeed = 260f, maxRpm = 8000f;
     public float speedAngleMin = 130f, speedAngleMax = -130f;
     public float rpmAngleMin = 130f, rpmAngleMax = -130f;
@@ -121,7 +122,7 @@ public class RacingHUD : MonoBehaviour
             if (rpmText) rpmText.text = (Mathf.RoundToInt(gearbox.RPM / 10f) * 10).ToString();
             float rn = Mathf.Clamp01(gearbox.RPM / maxRpm);
             if (rpmNeedle) rpmNeedle.localRotation = Quaternion.Euler(0, 0, Mathf.Lerp(rpmAngleMin, rpmAngleMax, rn));
-            if (rpmBar) rpmBar.fillAmount = rn;
+            if (rpmBar) rpmBar.fillAmount = rn * rpmBarMaxFill;
         }
         if (speedNeedle)
             speedNeedle.localRotation = Quaternion.Euler(0, 0, Mathf.Lerp(speedAngleMin, speedAngleMax, Mathf.Clamp01(kmh / maxDisplaySpeed)));
